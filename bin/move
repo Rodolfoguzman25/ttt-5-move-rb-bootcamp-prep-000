@@ -27,8 +27,9 @@ index=input.to_i-1
 
 def move(board,index)
    board[index]="X"
+   puts display_board(board)
 end
 
 move(board,index)
 
-puts display_board(board)
+
