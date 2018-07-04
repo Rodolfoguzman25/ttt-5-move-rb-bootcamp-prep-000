@@ -36,4 +36,3 @@ def move(board,index)
 end
 
 puts move(board,index)
-
