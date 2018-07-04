@@ -18,6 +18,8 @@ def display_board(board)
 	puts row_five
 end
 
+puts display_board
+
 puts "Where would you like to go?"
 input= gets.strip
 index=input.to_i-1
