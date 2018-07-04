@@ -29,4 +29,6 @@ def move(board,index)
    board[index]="X"
 end
 
+move(board,index)
+
 puts display_board(board)
